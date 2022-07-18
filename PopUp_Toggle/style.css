@@ -1,0 +1,32 @@
+body {
+  /* background-color: rgb(22, 17, 17); */
+  background-color: rgb(108, 89, 92);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#box {
+  background-color: grey;
+  height: 21rem;
+  width: 50rem;
+  visibility: hidden;
+}
+#box > input {
+  padding: 1rem;
+}
+#box.show {
+  visibility: visible;
+}
+.material-symbols-outlined {
+  float: right;
+  padding: 10px;
+}
+.material-symbols-outlined:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+#box > form > p {
+  color: red;
+}
