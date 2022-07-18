@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+.heading {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  color: rgb(145, 57, 57);
+  padding: 10px;
+  font-size: 50px;
+  font-family: "Comic Neue", cursive;
+}
+.container {
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.container img {
+  margin: 20px;
+  width: 100%;
+  height: 80vh;
+  width: 700px;
+  object-fit: cover;
+  /* border-radius: 20%; */
+  /* border: 0.5rem solid rgb(255, 255, 255); */
+  border-radius: 26px;
+  box-shadow: 7px 7px 53px 22px rgba(0, 0, 0, 0.62);
+  -webkit-box-shadow: 7px 7px 53px 22px rgba(0, 0, 0, 0.62);
+  -moz-box-shadow: 7px 7px 53px 22px rgba(0, 0, 0, 0.62);
+}
+
+.container img:hover {
+  transform: scale(1.1);
+}
+
+.inactive {
+  display: none;
+}
+
+#prev,
+#next {
+  padding: 20px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  color: rgb(126, 70, 70);
+  font-size: 80px;
+  user-select: none;
+  margin: 60px;
+  border-radius: 50%;
+}
+
+#prev {
+  box-shadow: -22px 5px 53px 15px rgba(105, 49, 49, 0.62);
+  -webkit-box-shadow: -22px 5px 53px 15px rgba(105, 49, 49, 0.62);
+  -moz-box-shadow: -22px 5px 53px 15px rgba(105, 49, 49, 0.62);
+}
+#next {
+  box-shadow: 21px 5px 53px 15px rgba(105, 49, 49, 0.62);
+  -webkit-box-shadow: 21px 5px 53px 15px rgba(105, 49, 49, 0.62);
+  -moz-box-shadow: 21px 5px 53px 15px rgba(105, 49, 49, 0.62);
+}
+#prev:hover,
+#next:hover {
+  /* transform: translate(-5px, 0); */
+  color: rgb(226, 128, 123);
+}
