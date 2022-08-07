@@ -1,0 +1,51 @@
+* {
+  margin: 50px;
+  padding: 0%;
+}
+
+body {
+  background-color: rgb(3, 28, 49);
+}
+
+/* flex does not allow to center */
+.mainHeading {
+  color: aliceblue;
+  font-family: "Courier New", Courier, monospace;
+  /* display: flex; */
+  /* margin-left: 50%; */
+  text-align: center;
+}
+
+.card-title {
+  color: #d9da45;
+  text-align: center;
+  font-size: 30px;
+}
+
+.inputBox {
+  text-align: center;
+  align-items: center;
+  /* margin-left: 50%; */
+  /* these two make center */
+  display: block;
+  margin: auto;
+  width: auto;
+  height: 50px;
+  font-size: 35px;
+}
+
+#btn {
+  align-items: center;
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+  width: 300px;
+  height: 50px;
+}
+
+#converted {
+  text-align: center;
+  margin-top: 60px;
+  align-items: center;
+  color: rgb(210, 159, 159);
+}
