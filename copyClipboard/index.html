@@ -1,0 +1,39 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Copy to Clipboard</title>
+  </head>
+  <body>
+    <h1>Copy to Clipboard</h1>
+    <!-- text area -->
+    <div class="content">
+      <textarea name="" id="t1" cols="50" rows="12">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum repellendus nemo assumenda delectus, optio officia sit, inventore architecto necessitatibus officiis dignissimos aliquid animi doloribus nobis placeat ex possimus pariatur temporibus quia cupiditate quidem laudantium deserunt! Mollitia vel ipsum nostrum, veniam explicabo dolorum consequatur, ab, iusto architecto corporis dolorem quo sunt!
+        </textarea
+      >
+    </div>
+
+    <!-- copy button -->
+    <div class="copy">
+      <button id="button" onclick="copyToClipboard()">Copy Text</button>
+      <button id="button2" onclick="pasteToClipboard()">Paste Text</button>
+    </div>
+
+    <!-- text area to paste -->
+    <div class="paste">
+      <textarea name="" id="t2" cols="50" rows="12"></textarea>
+    </div>
+  </body>
+  <!-- including this script above gives error(inserting in null in paste button) -->
+  <script src="index.js"></script>
+</html>

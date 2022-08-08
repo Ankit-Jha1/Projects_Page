@@ -1,0 +1,54 @@
+body {
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+
+  overflow: hidden;
+}
+
+h1 {
+  margin-top: 20px;
+  text-align: center;
+  color: rgb(209 252 136);
+}
+
+.content {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.copy {
+  text-align: center;
+  margin: 30px;
+}
+
+.paste {
+  text-align: center;
+  margin: 30px;
+}
+
+textarea {
+  padding: 20px;
+  font-size: 15px;
+  color: #9fdaff;
+  background: #1e1313;
+}
+
+#button,
+#button2 {
+  height: 50px;
+  width: 180px;
+  border-radius: 15px;
+  background-color: #f53a2df8;
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: large;
+  cursor: pointer;
+  border: none;
+}
+
+#button:hover {
+  background-color: #35b13af8;
+  color: wheat;
+}
