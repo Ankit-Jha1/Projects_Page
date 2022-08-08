@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Api app</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="mainBox">
+      <h1>Weather API App</h1>
+      <div class="smallerBox">
+        <section class="inputAndButton">
+          <!-- input section -->
+          <section class="inputs">
+            <input
+              type="text"
+              placeholder="City Name"
+              id="cityinput"
+              class="cityInput"
+            />
+            <input
+              type="submit"
+              value="Submit"
+              id="add"
+              class="btn btn-primary submitButton"
+            />
+          </section>
+
+          <!-- Display section -->
+          <section class="display">
+            <h2 id="cityoutput"></h2>
+            <p id="description"></p>
+            <p id="temp"></p>
+            <p id="wind"></p>
+          </section>
+        </section>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

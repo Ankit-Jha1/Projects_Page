@@ -1,0 +1,62 @@
+/* ============================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #030f1d;
+  overflow: hidden;
+}
+
+/* .mainBox {
+  align-items: center;
+  text-align: center;
+  display: block;
+  margin: auto;
+
+} */
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+  color: yellowgreen;
+  margin: 30px;
+}
+
+.inputs {
+  display: flex;
+  margin: auto;
+  text-align: center;
+  margin: 40px;
+  justify-content: center;
+}
+
+.display {
+  display: block;
+  color: blanchedalmond;
+  font-size: large;
+  text-align: center;
+  border: 10px;
+}
+
+.cityInput {
+  width: 400px;
+  height: 60px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.submitButton {
+  height: 60px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.inputAndButton {
+  display: flex;
+  flex-direction: column;
+}
